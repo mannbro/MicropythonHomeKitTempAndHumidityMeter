@@ -1,0 +1,23 @@
+{
+    "accessory": "HttpAdvancedAccessory",
+    "service": "TemperatureSensor",
+    "name": "Temperature Sensor",
+    "forceRefreshDelay": 10,
+    "username": "admin",
+    "password": "admin",
+    "debug": false,
+    "urls": {
+        "getCurrentTemperature": {
+            "url": "http://192.168.2.15/",
+            "mappers": [
+                {
+                    "type": "jpath",
+                    "parameters": {
+                        "jpath": "$.temperature",
+                        "index": 0
+                    }
+                }
+            ]
+        }
+    }
+}

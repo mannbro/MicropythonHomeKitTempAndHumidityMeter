@@ -1,0 +1,23 @@
+{
+    "accessory": "HttpAdvancedAccessory",
+    "service": "HumiditySensor",
+    "name": "Humidity Sensor",
+    "forceRefreshDelay": 10,
+    "username": "admin",
+    "password": "admin",
+    "debug": false,
+    "urls": {
+        "getCurrentRelativeHumidity": {
+            "url": "http://192.168.2.15/",
+            "mappers": [
+                {
+                    "type": "jpath",
+                    "parameters": {
+                        "jpath": "$.humidity",
+                        "index": 0
+                    }
+                }
+            ]
+        }
+    }
+}
