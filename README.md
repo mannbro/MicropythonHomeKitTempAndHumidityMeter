@@ -15,6 +15,8 @@ The circuit is quite simple.
 * Connect 3V3 on the ESP and + on the DHT20 to +3.3V
 * Connect GND on the ESP and - on the DHT20 to Ground
 
+For Power, I use an AC-03-3 mini power supply from AZDelivery, but anything that can deliver 3.3V will work.
+
 # Installation on the ESP8266
 Make sure that you have a recent Micropython firmware installed on your ESP8266.
 
