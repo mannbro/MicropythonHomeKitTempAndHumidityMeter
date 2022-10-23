@@ -4,7 +4,7 @@ HomeKit-enabled Temperature and Humidity sensor using ESP8266-01S, DHT20, Microp
 # YouTube Video
 To learn more, check out the YouTube video I made about the Garage Door Opener
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/-h3uSNCeCGY/0.jpg)](https://www.youtube.com/watch?v=-h3uSNCeCGY)
+[![YouTube Video](https://img.youtube.com/vi/e1oZVVdQ5Jg/0.jpg)](https://www.youtube.com/watch?v=e1oZVVdQ5Jg)
 
 # Setting up the hardware
 The circuit is quite simple.
