@@ -9,11 +9,11 @@ To learn more, check out the YouTube video I made about the Garage Door Opener
 # Setting up the hardware
 The circuit is quite simple.
 
-Connect IO0 on the ESP to SCL on the DHT20
-Connect IO2 on the ESP to SDA on the DHT20
+* Connect IO0 on the ESP to SCL on the DHT20
+* Connect IO2 on the ESP to SDA on the DHT20
 
-Connect 3V3 on the ESP and + on the DHT20 to +3.3V
-Connect GND on the ESP and - on the DHT20 to Ground
+* Connect 3V3 on the ESP and + on the DHT20 to +3.3V
+* Connect GND on the ESP and - on the DHT20 to Ground
 
 # Installation on the ESP8266
 Make sure that you have a recent Micropython firmware installed on your ESP8266.
